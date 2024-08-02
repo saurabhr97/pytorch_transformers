@@ -16,7 +16,7 @@ class json_file_interface:
 
     def __init__(self):
         self.embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-        with open("pytorch_transformers/RagTest/resources/json_interface_data.json", 'r') as f:
+        with open("./RagTest/resources/json_interface_data.json", 'r') as f:
             try:
                 saved_data = json.load(f)
                 print(len(saved_data))
@@ -39,7 +39,7 @@ class json_file_interface:
                 chunks = self.split_into_chunks(data[data_pt])
                 self.process_chunks(chunks)
         self.neighbours = NearestNeighbors(n_neighbors=self.n_neighbours, algorithm='ball_tree').fit(self.rag_vectors)
-        with open("pytorch_transformers/RagTest/resources/json_interface_data.json", 'w') as f:
+        with open("./RagTest/resources/json_interface_data.json", 'w') as f:
             data = {"rag_keys": list(self.rag_keys), "rag_data": list(self.rag_data.values())}
             json.dump(data, f)
         print("Rag vectors shape: ", self.rag_vectors.shape)
