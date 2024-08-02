@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Build
+build/
+dist/
+
+# Dependencies
+*.egg-info/
+.eggs/
+*.egg
+
+# Packaging
+*.whl
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+*.pyc
+*.DS_Store
+*.class
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Other
+debug.log
+
+# Custom
+resources/data/
+resources/models/
+resources/notes.txt
+
+# RagTest
+RagTest/__pycache__/
+RagTest/.vscode/
+RagTest/ragInterface/__pycache__/
+RagTest/ragInterface/json_file_interface.pyc
+RagTest/ragInterface/json_file_interface.pyo
+RagTest/ragInterface/json_file_interface.pyd
+RagTest/ragInterface/json_file_interface.pytest_cache
+RagTest/ragInterface/json_file_interface.pyc
+RagTest/ragInterface/json_file_interface.pyo
+RagTest/ragInterface/json_file_interface.pyd
+RagTest/ragInterface/json_file_interface.pytest_cache
+
+# InferenceTest
+InferenceTest/__pycache__/
+InferenceTest/.vscode/
+InferenceTest/resources/notes.txt
+InferenceTest/models/__pycache__/
+InferenceTest/models/phi3.pyc
+InferenceTest/models/phi3.pyo
+InferenceTest/models/phi3.pyd
+InferenceTest/models/phi3.pytest_cache
+InferenceTest/models/phi3.pyc
+InferenceTest/models/phi3.pyo
+InferenceTest/models/phi3.pyd
+InferenceTest/models/phi3.pytest_cache
+InferenceTest/resources/notes.txt
+
+# Models
+models/__pycache__/
+models/phi3.pyc
+models/phi3.pyo
+models/phi3.pyd
+models/phi3.pytest_cache
+models/phi3.pyc
+models/phi3.pyo
+models/phi3.pyd
+models/phi3.pytest_cache
+models/llama3_1.pyc
+models/llama3_1.pyo
+models/llama3_1.pyd
+models/llama3_1.pytest_cache
+models/llama3_1.pyc
+models/llama3_1.pyo
+models/llama3_1.pyd
+models/llama3_1.pytest_cache
+models/qwen2.pyc
+models/qwen2.pyo
+models/qwen2.pyd
+models/qwen2.pytest_cache
+models/qwen2.pyc
+models/qwen2.pyo
+models/qwen2.pyd
+models/qwen2.pytest_cache
+
+# Main
+main.pyc
+main.pyo
+main.pyd
+main.pytest_cache
+main.pyc
+main.pyo
+main.pyd
+main.pytest_cache
+models/__pycache__/llama3_1.cpython-312.pyc
+InferenceTest/__pycache__/function_call.cpython-312.pyc
+InferenceTest/__pycache__/helper.cpython-312.pyc
+InferenceTest/__pycache__/rag.cpython-312.pyc
+models/__pycache__/llama3_1.cpython-312.pyc
+models/__pycache__/phi3.cpython-312.pyc
+RagTest/__pycache__/helper.cpython-312.pyc
